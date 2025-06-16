@@ -1,0 +1,151 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "AlreadyInitialized",
+				"type": "error"
+			},
+			{
+				"inputs": [],
+				"name": "doSmth",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_number",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "_bigBoss",
+						"type": "address"
+					}
+				],
+				"name": "getInitData",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes",
+						"name": "_initData",
+						"type": "bytes"
+					}
+				],
+				"name": "initialize",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "number",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "someToken",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"SomeToken.sol": "SomeToken"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"IUtilityContract.sol": {
+			"keccak256": "0x441712e3b0be62dd6c030e5f217fed2793b471af6be4e559478199fa9a6b9beb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d05bf1c8865b102352e8b9eaf6b7e186843014406088951d44e5568cbc088108",
+				"dweb:/ipfs/QmWwammvcnB4tnUj5TvLwXYMYm6xnnPQ7HXZpG35K1rCPd"
+			]
+		},
+		"SomeToken.sol": {
+			"keccak256": "0x9763297a32ffa0a3ad384e519d86cb6e925c6165d05cf6a6041aa460d00c123e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9f29a3e531207d0be42f8cc05de1ac48b13999548d713aabb87e395bac8f0c77",
+				"dweb:/ipfs/QmQgkc5oZ8M3CtGEpfYLAu55g9b9LR6USF6o6RaWm9opBC"
+			]
+		}
+	},
+	"version": 1
+}

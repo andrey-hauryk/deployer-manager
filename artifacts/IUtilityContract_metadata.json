@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes",
+						"name": "_initData",
+						"type": "bytes"
+					}
+				],
+				"name": "initialize",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"IUtilityContract.sol": "IUtilityContract"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"IUtilityContract.sol": {
+			"keccak256": "0x441712e3b0be62dd6c030e5f217fed2793b471af6be4e559478199fa9a6b9beb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d05bf1c8865b102352e8b9eaf6b7e186843014406088951d44e5568cbc088108",
+				"dweb:/ipfs/QmWwammvcnB4tnUj5TvLwXYMYm6xnnPQ7HXZpG35K1rCPd"
+			]
+		}
+	},
+	"version": 1
+}
